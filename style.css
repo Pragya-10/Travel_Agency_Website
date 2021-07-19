@@ -142,8 +142,9 @@ nav ul{
 
 .locations-head h3 {
     padding: 4rem 0rem;
+    
     background-clip: text;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: maroon;
 }
 
 .cloud {
@@ -187,6 +188,7 @@ nav ul{
     align-items: center;
     text-align: center;
     color: white;
+    
 }
 
 .benefits-head h3{
@@ -232,7 +234,7 @@ nav ul{
     background: rgb(84, 115, 196);
 }
 
-#contact {
+#contacts {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5),transparent), url(/images/contact-mountain.png);
     background-size: cover;
