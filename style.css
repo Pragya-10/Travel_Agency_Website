@@ -144,7 +144,7 @@ nav ul{
     padding: 4rem 0rem;
     
     background-clip: text;
-    -webkit-text-fill-color: maroon;
+    -webkit-text-fill-color: white;
 }
 
 .cloud {
@@ -304,6 +304,11 @@ footer ul{
     flex: 1 1 40rem;
     justify-content: space-between;
     align-items: center;
+}
+
+button:focus{
+    background: rgb(84, 115, 196);
+    outline-style: solid; 
 }
 
 
